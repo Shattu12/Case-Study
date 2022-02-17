@@ -1,0 +1,36 @@
+User:
+Get-> http://localhost:8093/api/user/all
+Get-> http://localhost:8093/api/user/{Name}
+Post-> http://localhost:8093/api/user/add
+{
+    "userName":"Test1",
+    "userEmail":"test1@test.com",
+    "userPhone":"1234785691",
+    "userPassword":"TestPass1"
+}
+Put-> http://localhost:8093/api/user/update
+{
+    "id": "61d9b1df73e4104cc6a6a60d",
+    "userName":"TestDeveloper",
+    "userEmail":"test1@test.com",
+    "userPhone":"1234785691",
+    "userPassword":"TestPass1"
+}
+Item:
+Get-> http://localhost:8093/api/item/all
+Get-> http://localhost:8093/api/item/{Name}
+Post-> http://localhost:8093/api/item/add
+{
+    "itemName":"Test1",
+    "userEmail":"test1@test.com",
+    "userPhone":"1234785691",
+    "userPassword":"TestPass1"
+}
+Put-> http://localhost:8093/api/user/update
+{
+    "id": "61d9b1df73e4104cc6a6a60d",
+    "userName":"TestDeveloper",
+    "userEmail":"test1@test.com",
+    "userPhone":"1234785691",
+    "userPassword":"TestPass1"
+}
